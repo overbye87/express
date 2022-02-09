@@ -1,8 +1,8 @@
 import { Router } from "express";
 import { getAll } from "../controllers/todos.js";
 
-const router = Router();
+const todosRouter = Router();
 
-router.get("/api/todos", getAll);
+todosRouter.get("/api/todos", getAll);
 
-export default router;
+export default todosRouter;

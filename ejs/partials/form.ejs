@@ -2,6 +2,7 @@
   <div class="mb-3">
     <label for="exampleInputName" class="form-label">Name</label>
     <input
+      name="userName"
       type="name"
       class="form-control"
       id="exampleInputName"
@@ -11,7 +12,15 @@
   </div>
   <div class="mb-3">
     <label for="exampleInputAge" class="form-label">Age</label>
-    <input type="number" class="form-control" id="exampleInputAge" required />
+    <input
+      name="userAge"
+      type="number"
+      class="form-control"
+      id="exampleInputAge"
+      required
+    />
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary" value="Отправить">
+    Submit
+  </button>
 </form>
