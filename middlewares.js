@@ -5,7 +5,7 @@ export function requestTime(req, res, next) {
   next();
 }
 export function logger(req, res, next) {
-  console.log(colors.bgGreen.black(`Req.time: ${req.requestTime}`));
+  console.log(colors.green(`Req.time: `) + colors.gray(req.requestTime));
 
   next();
 }
